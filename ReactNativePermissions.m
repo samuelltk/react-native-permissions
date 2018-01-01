@@ -73,7 +73,7 @@ RCT_REMAP_METHOD(getPermissionStatus, getPermissionStatus:(RNPType)type resolve:
     switch (type) {
             
         case RNPTypeLocation:
-            status = [RNPLocation getStatus];
+            //status = [RNPLocation getStatus];
             break;
         case RNPTypeCamera:
             status = [RNPAudioVideo getStatus:@"video"];
